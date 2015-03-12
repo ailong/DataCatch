@@ -5,11 +5,11 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Windows.Forms;
+using DevComponents;
 
 namespace EnvironmentCatch
 {
-    public partial class SuperCatcher : Form
+    public partial class SuperCatcher : DevComponents.DotNetBar.RibbonForm
     {
         public SuperCatcher()
         {
